@@ -12,7 +12,7 @@ configure_file("src/project_version.h.in" "project_version.h")
 
 add_executable(
         ${project_name}
-        src/main.cpp
+        src/main.c
 )
 
 target_include_directories (${project_name} PRIVATE ${CMAKE_BINARY_DIR})
